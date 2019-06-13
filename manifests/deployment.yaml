@@ -14,7 +14,7 @@ spec:
       spec:
         containers:
         - name: captureorder
-          image: ls-lha/captureorder # replace with your own repository
+          image: corityreg.azurecr.io # replace with your own repository
           imagePullPolicy: Always
           readinessProbe:
             httpGet:
